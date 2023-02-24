@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\backend\" />
+    <Folder Include="wwwroot\js\frontend\" />
+    <Folder Include="wwwroot\lib\asssets\css\" />
+    <Folder Include="wwwroot\lib\backend\" />
+    <Folder Include="wwwroot\lib\asssets\js\" />
+    <Folder Include="wwwroot\lib\frontend\" />
+  </ItemGroup>
+
+</Project>
