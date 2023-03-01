@@ -1,42 +1,37 @@
-﻿
-<!doctype html>
-<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-layout-mode="dark" data-sidebar-image="none" data-preloader="disable">
-
+﻿<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="ladylip" data-sidebar-size="lg">
 <head>
-
     <meta charset="utf-8" />
-    <title>Job Landing | Velzon - Admin & Dashboard Template</title>
+    <title>S.H.E Blockchain &#x2013; Empowering Women in Blockchain | Velzon - Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="/lib/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="/imgs/logo.png">
 
     <!--Swiper slider css-->
-    <link href="/lib/assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Layout config Js -->
-    <script src="/lib/assets/js/layout.js"></script>
+    <script src="/assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
-    <link href="/lib/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="/lib/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="/lib/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
-    <link href="/lib/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
-
+    <link href="/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/site.css?v=@DateTime.Now.ToString("yyyyMMddhhmmss")" rel="stylesheet" type="text/css" />
 </head>
-
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
-
     <!-- Begin page -->
     <div class="layout-wrapper landing">
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top job-navbar" id="navbar">
             <div class="container-fluid custom-container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/lib/assets/images/logo-dark.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
-                    <img src="/lib/assets/images/logo-light.png" class="card-logo card-logo-light" alt="logo light" height="17">
+                <a class="navbar-brand" href="/Dashboard">
+                    <img src="/assets/images/logo.png" class="card-logo card-logo-dark" alt="logo dark" height="17">
+                    <img src="/assets/images/logo.png" class="card-logo card-logo-light" alt="logo light" height="17">
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="mdi mdi-menu"></i>
@@ -45,10 +40,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#hero">Home</a>
+                            <a class="nav-link active" href="#hero">Why S.H.E</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#process">Process</a>
+                            <a class="nav-link" href="#vision">Vision</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#categories">Categories</a>
@@ -62,128 +57,115 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Blog</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#partner">Partner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
                     </ul>
 
                     <div class="">
-                        <a href="auth-signin-basic.html" class="btn btn-soft-primary"><i class="ri-user-3-line align-bottom me-1"></i> Login & Register</a>
+                        <a href="#" class="btn btn-soft-primary"><i class="ri-user-3-line align-bottom me-1"></i> Login &amp; Register</a>
                     </div>
                 </div>
 
             </div>
         </nav>
-        <!-- end navbar -->
-        @RenderBody()
-        <!-- Start footer -->
+    @RenderBody()
+    <!-- end layout wrapper -->
+    <!-- JAVASCRIPT -->
+    <!-- Start footer -->
         <footer class="custom-footer bg-dark py-5 position-relative">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 mt-4">
+                    <div class="mt-4 col-lg-4">
                         <div>
                             <div>
-                                <img src="/lib/assets/images/logo-light.png" alt="logo light" height="17" />
+                                <img src="/imgs/logo.png" alt="logo light"
+                                     height="100">
                             </div>
-                            <div class="mt-4 fs-13">
-                                <p>Premium Multipurpose Admin & Dashboard Template</p>
-                                <p>You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Velzon.</p>
-                                <ul class="list-inline mb-0 footer-social-link">
-                                    <li class="list-inline-item">
-                                        <a href="javascript: void(0);" class="avatar-xs d-block">
-                                            <div class="avatar-title rounded-circle">
-                                                <i class="ri-facebook-fill"></i>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="javascript: void(0);" class="avatar-xs d-block">
-                                            <div class="avatar-title rounded-circle">
-                                                <i class="ri-github-fill"></i>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="javascript: void(0);" class="avatar-xs d-block">
-                                            <div class="avatar-title rounded-circle">
-                                                <i class="ri-linkedin-fill"></i>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="javascript: void(0);" class="avatar-xs d-block">
-                                            <div class="avatar-title rounded-circle">
-                                                <i class="ri-google-fill"></i>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="javascript: void(0);" class="avatar-xs d-block">
-                                            <div class="avatar-title rounded-circle">
-                                                <i class="ri-dribbble-line"></i>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="mt-4">
+                                <p class="ff-secondary">
+                                    Holistic educational organization empowering women to take on the
+                                    Blockchain industry
+                                </p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-7 ms-lg-auto">
+                    <div class="ms-lg-auto col-lg-7">
                         <div class="row">
-                            <div class="col-sm-4 mt-4">
+                            <div class="mt-4 col-sm-4">
                                 <h5 class="text-white mb-0">Company</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-profile.html">About Us</a></li>
-                                        <li><a href="pages-gallery.html">Gallery</a></li>
-                                        <li><a href="pages-team.html">Team</a></li>
-                                        <li><a href="pages-pricing.html">Pricing</a></li>
-                                        <li><a href="pages-timeline.html">Timeline</a></li>
+                                        <li><a href="javascript:;">About Us</a></li>
+                                        <li><a href="javascript:;">Gallery</a></li>
+                                        <li><a href="javascript:;">Projects</a></li>
+                                        <li><a href="javascript:;">Timeline</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-4 mt-4">
-                                <h5 class="text-white mb-0">For Jobs</h5>
+                            <div class="mt-4 col-sm-4">
+                                <h5 class="text-white mb-0">Apps Pages</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="apps-job-lists.html">Job List</a></li>
-                                        <li><a href="apps-job-application.html">application</a></li>
-                                        <li><a href="apps-job-new.html">New Job</a></li>
-                                        <li><a href="apps-job-companies-lists.html">Company List</a></li>
+                                        <li><a href="javascript:;">Calendar</a></li>
+                                        <li><a href="javascript:;">Mailbox</a></li>
+                                        <li><a href="javascript:;">Chat</a></li>
+                                        <li><a href="javascript:;">Deals</a></li>
+                                        <li><a href="javascript:;">Kanban Board</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-4 mt-4">
+                            <div class="mt-4 col-sm-4">
                                 <h5 class="text-white mb-0">Support</h5>
                                 <div class="text-muted mt-3">
                                     <ul class="list-unstyled ff-secondary footer-list">
-                                        <li><a href="pages-faqs.html">FAQ</a></li>
-                                        <li><a href="pages-faqs.html">Contact</a></li>
+                                        <li><a href="javascript:;">FAQ</a></li>
+                                        <li><a href="javascript:;">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="row text-center text-sm-start align-items-center mt-5">
+                <div class="text-center text-sm-start align-items-center mt-5 row">
                     <div class="col-sm-6">
                         <div>
-                            <p class="copy-rights mb-0">
-                                <script>document.write(new Date().getFullYear())</script> © Velzon - Themesbrand
-                            </p>
+                            <p class="copy-rights mb-0">2023 © She Blockchain</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end mt-3 mt-sm-0">
-                            <ul class="list-inline mb-0 footer-list gap-4 fs-13">
+                            <ul class="list-inline mb-0 footer-social-link">
                                 <li class="list-inline-item">
-                                    <a href="pages-privacy-policy.html">Privacy Policy</a>
+                                    <a class="avatar-xs d-block" href="javascript:;">
+                                        <div class="avatar-title rounded-circle"><i class="ri-facebook-fill"></i></div>
+                                    </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="pages-term-conditions.html">Terms & Conditions</a>
+                                    <a class="avatar-xs d-block" href="javascript:;">
+                                        <div class="avatar-title rounded-circle"><i class="ri-github-fill"></i></div>
+                                    </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="pages-privacy-policy.html">Security</a>
+                                    <a class="avatar-xs d-block" href="javascript:;">
+                                        <div class="avatar-title rounded-circle"><i class="ri-linkedin-fill"></i></div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="avatar-xs d-block" href="javascript:;">
+                                        <div class="avatar-title rounded-circle"><i class="ri-google-fill"></i></div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="avatar-xs d-block" href="javascript:;">
+                                        <div class="avatar-title rounded-circle"><i class="ri-dribbble-line"></i></div>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -191,28 +173,32 @@
                 </div>
             </div>
         </footer>
-        <!-- end footer -->
-        <!--start back-to-top-->
-        <button onclick="topFunction()" class="btn btn-info btn-icon landing-back-top" id="back-to-top">
-            <i class="ri-arrow-up-line"></i>
-        </button>
-        <!--end back-to-top-->
-
+    <!-- end footer -->
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-info btn-icon landing-back-top" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
     </div>
-    <!-- end layout wrapper -->
-    <!-- JAVASCRIPT -->
-    <script src="/lib/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/lib/assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="/lib/assets/libs/node-waves/waves.min.js"></script>
-    <script src="/lib/assets/libs/feather-icons/feather.min.js"></script>
-    <script src="/lib/assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="/lib/assets/js/plugins.js"></script>
+    <script src="/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="/assets/libs/node-waves/waves.min.js"></script>
+    <script src="/assets/libs/feather-icons/feather.min.js"></script>
+    <script src="/assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="/assets/js/plugins.js"></script>
 
     <!--Swiper slider js-->
-    <script src="/lib/assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/libs/swiper/swiper-bundle.min.js"></script>
 
     <!--job landing init -->
-    <script src="/lib/assets/js/pages/job-lading.init.js"></script>
-</body>
+    <script src="/assets/js/pages/job-lading.init.js"></script>
 
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="0ca2d0df08fa4a8c8690292318ecba13" data-requestMappingFromServer="false" data-connectUrl="http://localhost:62030/9823b95da4df4347a040fb9d67fe4a42/browserLink"></script>
+    <!-- End Browser Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/site.js"></script>
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</body>
 </html>

@@ -1,0 +1,7 @@
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\Project.exe
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\Project.dll
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\Project.deps.json
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\Project.runtimeconfig.json
+D:\SHE.Project\Project\Project\obj\Release\net6.0\PubTmp\Out\Project.pdb
